@@ -212,19 +212,22 @@ tempCodeRunnerFile.py
 # Marimo
 marimo/_static/
 marimo/_lsp/
+__marimo__/
+
+# Streamlit
+.streamlit/secrets.toml
 
 # API Keys and Secrets
 *.key
 *.pem
 secrets.json
 .secrets/
+config.json
 
 # Project specific
 /data/
 /output/
 /logs/
 /tmp/
-__marimo__/
-
-# Streamlit
-.streamlit/secrets.toml
+/patches/
+/vulnerabilities/

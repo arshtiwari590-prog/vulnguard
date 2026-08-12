@@ -212,6 +212,18 @@ tempCodeRunnerFile.py
 # Marimo
 marimo/_static/
 marimo/_lsp/
+
+# API Keys and Secrets
+*.key
+*.pem
+secrets.json
+.secrets/
+
+# Project specific
+/data/
+/output/
+/logs/
+/tmp/
 __marimo__/
 
 # Streamlit

@@ -5,24 +5,23 @@ An intelligent cyber-reasoning system that autonomously detects vulnerabilities 
 OVERVIEW
 
 VulnGuard reduces patch-to-deployment time from weeks to minutes by combining:
-
-AI-powered vulnerability discovery via static & dynamic analysis
-Autonomous patch generation using LLM reasoning
-Automated validation through regression test harnesses
-Confidence scoring for patch reliability assessment
+- AI-powered vulnerability discovery via static & dynamic analysis
+- Autonomous patch generation using LLM reasoning
+- Automated validation through regression test harnesses
+- Confidence scoring for patch reliability assessment
 
 TECH STACK
 
-Static Analysis: Semgrep
-Dynamic Fuzzing: Custom Python Fuzzer
-LLM Reasoning: Groq / OpenRouter / Google Gemini
-Vulnerability Intelligence: NVD API, OWASP API
-Code Repository: GitHub API
-Testing: pytest, coverage.py
-Patch Scoring: Risk-assessment module
-Languages: Python, C
-Backend: Python
-Logging: JSON audit trail
+- Static Analysis: Semgrep
+- Dynamic Fuzzing: Custom Python Fuzzer
+- LLM Reasoning: Groq / OpenRouter / Google Gemini
+- Vulnerability Intelligence: NVD API, OWASP API
+- Code Repository: GitHub API
+- Testing: pytest, coverage.py
+- Patch Scoring: Risk-assessment module
+- Languages: Python, C
+- Backend: Python
+- Logging: JSON audit trail
 
 ARCHITECTURE
 
@@ -30,24 +29,23 @@ Source Code → Static Analysis (Semgrep) → Dynamic Fuzzing (Custom Fuzzer) �
 
 KEY FEATURES
 
-Autonomous Discovery: Finds vulnerabilities without human intervention
-AI-Powered Patching: Generates contextually aware security patches
-Real-Time Validation: Proves patches work via regression testing
-Armed Forces Ready: Designed for critical infrastructure scale
-Lightweight: Minimal resource overhead, maximum speed
-Confidence Metrics: Risk scoring for patch reliability
+- Autonomous Discovery: Finds vulnerabilities without human intervention
+- AI-Powered Patching: Generates contextually aware security patches
+- Real-Time Validation: Proves patches work via regression testing
+- Armed Forces Ready: Designed for critical infrastructure scale
+- Lightweight: Minimal resource overhead, maximum speed
+- Confidence Metrics: Risk scoring for patch reliability
 
 GETTING STARTED
 
 Prerequisites
-
-Python 3.9+
-Git
-API keys: Groq, OpenRouter, or Google Gemini (free tier)
+- Python 3.9+
+- Git
+- API keys: Groq, OpenRouter, or Google Gemini (free tier)
 
 Installation
 
-git clone https://github.com/yourusername/vulnguard.git
+git clone https://github.com/arshtiwari590-prog/vulnguard.git
 cd vulnguard
 pip install -r requirements.txt
 
@@ -57,13 +55,13 @@ python vulnguard.py --target <code_path> --output <patch_output>
 
 ROADMAP
 
-Core fuzzing engine
-Semgrep integration
-LLM patch generation
-Regression test harness
-Confidence scoring module
-Armed Forces compliance logging
-Production deployment pipeline
+- Core fuzzing engine
+- Semgrep integration
+- LLM patch generation
+- Regression test harness
+- Confidence scoring module
+- Armed Forces compliance logging
+- Production deployment pipeline
 
 CONTRIBUTING
 
